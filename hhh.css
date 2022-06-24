@@ -1,0 +1,181 @@
+
+
+body{
+    
+    display:flex;
+    flex-flow: column wrap;
+    align-items:center;
+}
+#header-container {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    
+    position:sticky;
+    padding:0;
+    width:90%;
+    
+}
+
+.icon {
+    width:25px;
+}
+input.icon1 {
+    width:5px;
+}
+.logo{
+    width:100px;
+   
+}
+.search-form {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+   
+    width:100%;
+    height:70%;
+}
+
+    #search-btn {
+       
+        width:5%;
+        height: 35px;
+        border-style: groove;
+    }
+    #search-txt{
+        color:black;
+        font-size: 20px;
+        width:70%;
+        height: 35px;
+        
+
+    }
+    
+#main{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-width: 830px;
+    
+}
+#video-frame{
+        min-width:400px;
+   
+}
+.des1{
+    width: 490px;
+    height: 400px;
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-gap: 4px;
+    grid-template-areas: "header header header"
+        "mainM mainM mainR"
+    "foot foot foot"
+    "footer footer footer";
+
+}
+.part {
+   
+}
+.part1 {
+grid-area: header;
+}
+.big{
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.sm{
+    font-weight:normal;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.icL {
+    width:20px;
+}
+.ha{
+        
+    margin-top:-12px;
+    padding:0;
+
+    width:100%;
+    height: 100%;
+}
+.subscribe {
+    width:100%;
+    height: 50%;
+    color: #fff;
+    background-color: red;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif,Tahoma,Verdana, Geneva;
+}
+.kidsicon {
+    width:60px;
+}
+.ukids {
+    font-family:fantasy
+}
+.p41 {width:30%;}
+.p42 {width: 65%;}
+.part2 {
+    grid-area: mainM;  
+}
+.part3a {
+    grid-area: foot;
+    }
+.part3 {
+    grid-area: mainR;
+}
+.part4 {
+    grid-area: footer;
+    display:flex;
+}
+#subnail{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    width:300px;
+    height:770px;
+ }
+ .buy {
+    background-color: blue;
+    color: #fff;
+    width:100%;
+    height: 50px;
+    border-radius: 50%;
+    display:flex;
+    flex-flow: column nwrap;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    
+    
+ }
+ .thumbnai1header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+ }
+ .thumbnai1{
+    display:flex;
+    flex-flow: row nowrap;
+    width:100%;
+ }
+ .detail{
+    margin-top:0;
+    width:50%;
+    align-content:stretch;
+ }
+ iframe{
+    
+    border-radius:5%;
+}
+ .ttl {
+    font-size: 12px;
+    font-weight: bold;
+ }
